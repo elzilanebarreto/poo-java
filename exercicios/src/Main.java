@@ -9,6 +9,7 @@ public class Main {
         Calculadora calculo = new Calculadora();
         Musica musk = new Musica();
         Carro carro = new Carro();
+        Aluno aluno = new Aluno();
 
 //        System.out.printf("Digite uma frase: ");
 //        user.frase = sc.nextLine();
@@ -41,17 +42,25 @@ public class Main {
 //
 //        System.out.printf("Média de avaliações da música: %.2f", musk.mediarAvaliacoes());
 
-        System.out.println("Informe o modelo do carro: ");
-        carro.modelo = sc.nextLine();
+//        System.out.println("Informe o modelo do carro: ");
+//        carro.modelo = sc.nextLine();
+//
+//        System.out.println("Informe a cor do carro: ");
+//        carro.cor = sc.nextLine();
+//
+//        System.out.println("Informe o ano de lançamento do carro: ");
+//        carro.anoDeLancamento = sc.nextInt();
+//
+//        carro.fichaTecnica();
+//        carro.calcularIdadeDoCarro();
 
-        System.out.println("Informe a cor do carro: ");
-        carro.cor = sc.nextLine();
+        System.out.println("Digite o nome do aluno: ");
+        aluno.nome = sc.nextLine();
 
-        System.out.println("Informe o ano de lançamento do carro: ");
-        carro.anoDeLancamento = sc.nextInt();
+        System.out.println("Digite a idade do aluno: ");
+        aluno.idade = sc.nextInt();
 
-        carro.fichaTecnica();
-        carro.calcularIdadeDoCarro();
+        aluno.exibirInformacoes();
 
         sc.close();
     }
