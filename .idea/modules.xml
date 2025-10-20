@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/exercicios/exercicios.iml" filepath="$PROJECT_DIR$/exercicios/exercicios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ex-encapsulamento/ex-encapsulamento.iml" filepath="$PROJECT_DIR$/ex-encapsulamento/ex-encapsulamento.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicios-simples-poo/exercicios.iml" filepath="$PROJECT_DIR$/exercicios-simples-poo/exercicios.iml" />
       <module fileurl="file://$PROJECT_DIR$/poo.iml" filepath="$PROJECT_DIR$/poo.iml" />
     </modules>
   </component>
